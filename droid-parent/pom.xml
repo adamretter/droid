@@ -114,7 +114,7 @@
                         <dependency>
                             <groupId>org.apache.maven.shared</groupId>
                             <artifactId>maven-dependency-analyzer</artifactId>
-                            <version>1.11.3</version>
+                            <version>1.11.1</version>
                         </dependency>
                     </dependencies>
                 </plugin>
@@ -136,7 +136,7 @@
                 <plugin>
                     <groupId>com.mycila</groupId>
                     <artifactId>license-maven-plugin</artifactId>
-                    <version>4.1</version>
+                    <version>3.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -328,7 +328,7 @@
                     <excludes>
                         <exclude>**/resources/**</exclude>
                         <exclude>**/bin/</exclude>
-                        <exclude>.travis.yml</exclude>
+                        <exclude>**/.github/**</exclude>
                         <exclude>pom.xml</exclude>
                         <exclude>**/pom.xml</exclude>
                         <exclude>header.txt</exclude>
@@ -344,7 +344,7 @@
                         <exclude>**/empty.txt</exclude>
                         <exclude>**/service.properties</exclude>
                         <exclude>**/profile.xml</exclude>
-                        <exclude>*.form</exclude>
+                        <exclude>**/*.form</exclude>
                         <exclude>*.tmp</exclude>
                         <exclude>*.db</exclude>
                         <exclude>*.GIF</exclude>
@@ -790,7 +790,7 @@ Copyright &copy; ${project.inceptionYear}-{currentYear} <a href="${project.organ
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.10.0</version>
+                <version>3.11.1</version>
             </dependency>
             <dependency>
                 <groupId>xmlunit</groupId>
